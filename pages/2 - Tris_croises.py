@@ -26,9 +26,9 @@ st.button("↔️ Inverser X et Y", on_click=swap_vars, key="swap_btn")
 
 # 3) Maintenant seulement, on instancie les widgets liés à session_state.x et .y
 cols = df.columns.tolist()
-var1 = st.selectbox("Variable X :", cols, key='x')
+var1 = st.selectbox("Variable X (déroulant + recherche):", cols, key='x')
 cols_y = [c for c in cols if c != var1]
-var2 = st.selectbox("Variable Y :", cols_y, key='y')
+var2 = st.selectbox("Variable Y (déroulant + recherche):", cols_y, key='y')
 
 # Table de contingence
 ctab = pd.crosstab(df[var1], df[var2], normalize='index')
