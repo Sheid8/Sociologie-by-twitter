@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
+st.warning("🚧 Message du développeur : Je suis au courant que l'application peut être un peu lente par moments. Merci de votre patience, je travaille activement à l'améliorer ! 🙏")
 st.title("Sociologie by Twitter")
 st.markdown(
     """
