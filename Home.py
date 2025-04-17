@@ -24,9 +24,10 @@ st.markdown(
     - Explorer l’intégralité du questionnaire en **ACM** et **clustering**.
 
     **Ce site**
+
     L'objectif est que chacun puisse naviguer et analyser les données sans compétences techniques ou statistiques
-    Les données sont déjà préchargées : sélectionnez simplement votre analyse  
-    dans la barre latérale à gauche et plongez dans ces **résultats funs et scientifiques** !
+
+    Les données sont déjà préchargées : sélectionnez simplement votre analyse dans la barre latérale à gauche et plongez dans ces **résultats funs et scientifiques** !
 
     La plupart des graphiques sont interractifs (ordinateurs et mobiles) vous pouvez jouer avec!
     """
